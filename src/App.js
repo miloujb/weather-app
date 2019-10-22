@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
+import Form from "./Components/Form/Form";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>What is the weather like where you live?</p>
-      </header>
+      <h1>What is the weather like where you live?</h1>
+      <Form />
     </div>
   );
 }
