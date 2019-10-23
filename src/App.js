@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
 import Form from "./Components/Form/Form";
+import Titles from "./Components/Titles/Titles";
 
 function App() {
   return (
     <div className="App">
-      <h1>What is the weather like where you live?</h1>
+      <Titles />
       <Form />
     </div>
   );
